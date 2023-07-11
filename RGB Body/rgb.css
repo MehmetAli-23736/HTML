@@ -1,0 +1,38 @@
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background: #2e2e2e;
+    animation: color-wave 5s infinite;
+}
+
+@keyframes color-wave {
+    10% {
+        background: red;
+    }
+
+    25% {
+        background: blue;
+    }
+
+    50% {
+        background: green;
+    }
+
+    75% {
+        background: #56ffe8;
+    }
+
+    100% {
+        background: #568eff;
+    }
+
+}
+
+body {
+    background: #2e2e2e;
+    animation: color-wave 5s infinite;
+}
